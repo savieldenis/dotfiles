@@ -1,0 +1,24 @@
+[credential]
+	helper = 
+	helper = /usr/local/bin/git-credential-manager
+	credentialStore = gpg
+	azreposCredentialType = oauth
+[credential "https://dev.azure.com"]
+	useHttpPath = true
+[credential "azrepos:org/cgimcap-next"]
+	azureAuthority = https://login.microsoftonline.com/b9fec68c-c92d-461e-9a97-3d03a0f18b82
+	username = saviel.denis@cgi.com
+[credential "azrepos:org/iqgeocoe"]
+	azureAuthority = https://login.microsoftonline.com/b9fec68c-c92d-461e-9a97-3d03a0f18b82
+	username = saviel.denis@cgi.com
+[credential "azrepos:org/cgicms"]
+	username = saviel.denis@cgi.com
+[credential "azrepos:org/cgimcap-devtest"]
+	azureAuthority = https://login.microsoftonline.com/b9fec68c-c92d-461e-9a97-3d03a0f18b82
+	username = saviel.denis@cgi.com
+[credential "azrepos:org/cgimcap"]
+	azureAuthority = https://login.microsoftonline.com/b9fec68c-c92d-461e-9a97-3d03a0f18b82
+	username = saviel.denis@cgi.com
+[user]
+	email = saviel.denis@cgi.com
+	name = Saviel Denis
